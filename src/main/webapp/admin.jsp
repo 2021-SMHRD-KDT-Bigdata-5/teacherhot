@@ -139,21 +139,11 @@
                            <form method="post" action="#">
                               <div class="row gtr-uniform">
                                  <div class="col-6 col-12-xsmall">
-                                    <input type="text" name="demo-name" id="demo-name" value="" placeholder="운영자" />
+                                    <input type="text" name="demo-name" id="demo-name" value="" placeholder="회원 이름" />
                                  </div>
                                  <div class="col-6 col-12-xsmall">
-                                    <input type="email" name="demo-email" id="demo-email" value="" placeholder="날짜" />
+                                    <input type="email" name="demo-email" id="demo-email" value="" placeholder="회원 E-mail" />
                                  </div>
-                                 <div class="col-12">
-                                    <select name="demo-category" id="demo-category">
-                                       <option value="">- Category -</option>
-                                       <option value="1">복용법</option>
-                                       <option value="1">부작용</option>
-                                       <option value="1">질병 관련</option>
-                                       <option value="1">기타</option>
-                                    </select>
-                                 </div>
-                                 
                                  <div class="col-6 col-12-small">
                                     <input type="checkbox" id="demo-copy" name="demo-copy">
                                     <label for="demo-copy">회원</label>
