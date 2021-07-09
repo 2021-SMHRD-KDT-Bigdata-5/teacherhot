@@ -54,10 +54,10 @@
                            <h3>Q&A</h3>
                            <h5>QUESTION</h5>
                            <div class="table-wrapper">
-                              <table>
+                              <table class="alt">
                                  <thead>
                                     <tr>
-                                       <th>이름</th>
+                                       <th>보낸 회원</th>
                                        <th>문의사항</th>
                                        <th>날짜</th>
                                     </tr>
@@ -94,24 +94,24 @@
                               <table class="alt">
                                  <thead>
                                     <tr>
-                                       <th>이름</th>
+                                       <th>받은 회원</th>
                                        <th>문의사항</th>
                                        <th>날짜</th>
                                     </tr>
                                  </thead>
                                  <tbody>
                                     <tr>
-                                       <td>운영자</td>
+                                       <td>서지연</td>
                                        <td>비타민D를 빈 속에 복용하시면 속이 쓰리실 수 있기 때문에 식후에 드시는 것을 추천합니다 :)</td>
                                        <td>2021-07-02</td>
                                     </tr>
                                     <tr>
-                                       <td>운영자</td>
+                                       <td>신재용</td>
                                        <td>밀크씨슬은 음주 전후 섭취가 가능하나, 다음 날 드시는 것을 더 추천드립니다 :)</td>
                                        <td>2021-07-04</td>
                                     </tr>
                                     <tr>
-                                       <td>운영자</td>
+                                       <td>김진우</td>
                                        <td>비타민c는 만 9~13세까지는 하루 45mg을 권장합니다 :)</td>
                                        <td>2021-07-06</td>
                                     </tr>
