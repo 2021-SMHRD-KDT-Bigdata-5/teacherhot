@@ -167,10 +167,10 @@ bottom : 150px;
                            <form method="post" action="#">
                               <div class="row gtr-uniform">
                                  <div class="col-6 col-12-xsmall">
-                                    <input type="text" name="demo-name" id="demo-name" value="Name" placeholder="" />
+                                    <input type="text" name="demo-name" id="demo-name" placeholder="name" />
                                  </div>
                                  <div class="col-6 col-12-xsmall">
-                                    <input type="email" name="demo-email" id="demo-email" value="Email" placeholder="³¯Â¥" />
+                                    <input type="email" name="demo-email" id="demo-email" placeholder="email" />
                                  </div>
                                  <div class="col-12">
                                     <select name="demo-category" id="demo-category">
