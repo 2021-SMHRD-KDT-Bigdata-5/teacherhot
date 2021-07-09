@@ -1951,7 +1951,8 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #2e3842;
 			color: #fff;
-			content: '\f00c';
+			content: "\f00c";
+			font-family: 'Font Awesome 5 Free';
 		}
 
 		input[type="checkbox"]:focus + label:before,
