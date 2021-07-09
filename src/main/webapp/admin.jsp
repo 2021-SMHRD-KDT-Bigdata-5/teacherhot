@@ -127,14 +127,6 @@
                         </section>
 
                         <section>
-                           <!-- <h4>Buttons</h4> -->
-                           <ul class="actions">
-                              <li><a href="#" class="button">MAIN</a></li>
-                              <li><a href="#" class="button">MEMBER PAGE</a></li>
-                           </ul>
-                        </section>
-
-                        <section>
                            <h4>ANSWER PAGE</h4>
                            <form method="post" action="#">
                               <div class="row gtr-uniform">
@@ -145,11 +137,11 @@
                                     <input type="email" name="demo-email" id="demo-email" value="" placeholder="회원 E-mail" />
                                  </div>
                                  <div class="col-6 col-12-small">
-                                    <input type="checkbox" id="demo-copy" name="demo-copy">
+                                    <input type="radio" id="demo-copy" name="demo-copy" checked>
                                     <label for="demo-copy">회원</label>
                                  </div>
                                  <div class="col-6 col-12-small">
-                                    <input type="checkbox" id="demo-human" name="demo-human" checked>
+                                    <input type="radio" id="demo-human" name="demo-human">
                                     <label for="demo-human">비회원</label>
                                  </div>
                                  <div class="col-12">
