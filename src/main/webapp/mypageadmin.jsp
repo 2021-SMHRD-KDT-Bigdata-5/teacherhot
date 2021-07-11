@@ -113,7 +113,7 @@ bottom : 150px;
       <!-- Main -->
 <article id="main" style="background-color: #0b6d5f;">
                   <header>
-                     <h2>ADMIN</h2>
+                     <h2>관리자 페이지</h2>
                   </header>
                   <section class="wrapper style5" style="background-color: beige;">
                      <div class="inner">

@@ -26,8 +26,8 @@
                 <div class="button-wrap">
                     <div id="
                     btn"></div>
-                    <button type="button" class="togglebtn" onclick="login()">　　　　　　JOIN</button>
-                    <button type="button" class="togglebtn" onclick="register()">LOG IN</button>
+                    <button type="button" class="togglebtn" onclick="login()">LOG IN</button>
+                    <button type="button" class="togglebtn" onclick="register()">JOIN</button>
                 </div>
                 <div class="social-icons">
                     <img src="assets/css/img/fb.png" alt="facebook">

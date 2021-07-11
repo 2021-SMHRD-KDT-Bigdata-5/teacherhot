@@ -112,8 +112,7 @@ if(member != null){
 						placeholder="Name" />
 				</div>
 				<div class="col-6 col-12-xsmall">
-					<input type="text" name="receiveId" id="demo-email" value=""
-						placeholder="Email" />
+					<input type="text" name="receiveId" id="demo-email" value="admin"/>
 				</div>
 				<div class="col-12">
 					<select name="category" id="demo-category">
