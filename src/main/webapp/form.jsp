@@ -8,10 +8,8 @@
 <%MemberDTO member = (MemberDTO)session.getAttribute("member"); 
 MessageDAO dao = new MessageDAO();
 ArrayList<MessageDTO> list = new ArrayList<MessageDTO>();
-      
-if(member != null){
-   list = dao.showMessage(member.getId());
-} %>
+list = dao.showMessage();
+ %>
 <!DOCTYPE HTML>
 <!--
 	Spectral by HTML5 UP
@@ -168,14 +166,14 @@ bottom : 150px;
 								
 								<section>
 		<h3>Form</h3>
-		<form method="post" action="MessageCon.do">
+		<form method="post" action="MessageCon">
 			<div class="row gtr-uniform">
 				<div class="col-6 col-12-xsmall">
 					<input type="text" name="sendName" id="demo-name" value=""
 						placeholder="Name" />
 				</div>
 				<div class="col-6 col-12-xsmall">
-					<input type="text" name="receiveId" id="demo-email" value="admin"/>
+					<input type="text" name="receiveId" id="demo-email" value="È¸¿ø E-mail"/>
 				</div>
 				<div class="col-12">
 					<select name="category" id="demo-category">
@@ -232,6 +230,8 @@ bottom : 150px;
 					</footer> -->
 
 			</div>
+			
+			
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

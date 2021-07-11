@@ -29,10 +29,10 @@ request.setCharacterEncoding("euc-kr");
 		
 		if(cnt > 0) {
 			System.out.println("메세지 전송 성공");
-			response.sendRedirect("q&n.jsp");
+			response.sendRedirect("form.jsp");
 		}else {
 			System.out.println("메세지 전송 실패");
-			response.sendRedirect("q&n.jsp");
+			response.sendRedirect("form.jsp");
 		}
 		
 		

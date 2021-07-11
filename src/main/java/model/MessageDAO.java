@@ -78,7 +78,7 @@ public class MessageDAO {
 		return cnt;
 	}
 	
-	public ArrayList<MessageDTO> showMessage(String id) {
+	public ArrayList<MessageDTO> showMessage() {
 
 		ArrayList<MessageDTO> list = new ArrayList<MessageDTO>();
 		MessageDTO message = null;
@@ -88,10 +88,10 @@ public class MessageDAO {
 			connection();
 
 			// 쿼리 실행
-			String sql = "select * from message where receiveId = ?";
+			String sql = "select * from message";
 
 			psmt = conn.prepareStatement(sql);
-			psmt.setString(1, id);
+			
 			
 			// ☆☆☆☆☆
 			// insert, update, delete : executeUpdate() --> DB에 내용을 변경할 때
