@@ -105,7 +105,7 @@ if(member != null){
 		<div class = "add1">
 			<div class="subtitle">건강에 건강을 더하다</div><br>
 			<!-- <div class="title02">헬스 플러스</div> -->
-			<div class="contentGeneric">
+			<div class="contentGeneric" style="font-size: large;">
 				<!--건강에 건강을 더하다<br/><br/> -->
 				헬스플러스는 여러분의 삶이 건강에 더 가까워지는 방법을 연구하고 제안합니다.<br> <br> 먼저 부족한
 				영양소를 채우는 것에 집중하며, 건강 한 스푼 넣은 영양제 추천 서비스를 운영하고 있습니다.
@@ -115,7 +115,7 @@ if(member != null){
 			<div class="subtitle">브랜드 스토리</div><br>
 			<!-- <div class="title02">헬스 플러스</div>
                 <div class="content02">건강에 건강을 더하다<br/><br/> -->
-			<div class="contentGeneric">
+			<div class="contentGeneric" style="font-size: large;">
 				불편해서 시작했습니다. 자신에게 필요한 영양제를 섭취하고싶지만 무엇을 먼저 먹어야 할지 모르겠나요?<br> <br>
 				챙겨먹기는 세상 귀찮은데 그렇다고 안챙겨먹기는 불안해지고요. 필요한 영양제를 따로 번거롭게 구매하다 나섰습니다.<br>
 				<br> 한번에 해결할 수 있는 방법을 직접 만들기 위해서요. 정직하게 만들고, 친절하게 설명할게요.<br>
