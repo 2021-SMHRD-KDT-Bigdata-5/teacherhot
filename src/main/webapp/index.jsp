@@ -98,14 +98,14 @@
           <!-- Banner -->
 		<div id="banner">
 			<div class="inner">
-				<div class="title">HEALTH PLUS</div>
+				<div class="title" style="border-width:medium;">HEALTH PLUS</div>
 				<div class="content">
                 <div>건강에 건강을 더하다.</div>
                 <div>무료로 부족한 영양소를 채워보세요.</div>
                 <div>여러 문항의 설문을 통해 몸의 부족한 영양소를 추천해드립니다.</div>
                 </div>
 				<div class="actions">
-					<button><a href="research1.jsp" class="button primary">시작하기</a></button>
+					<button><a href="research1.jsp" class="button primary">START</a></button>
                 </div>
 			</div>
 		</div>

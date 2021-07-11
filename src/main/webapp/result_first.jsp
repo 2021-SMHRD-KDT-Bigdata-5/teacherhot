@@ -173,16 +173,16 @@ bottom : 150px;
             <div class="inner">
 
                <section>
-                  <h4>첫번째. 이런 영양소가 부족할 것으로 예측돼요</h4>	
+                  <h4>첫번째, 이런 영양소가 부족할 것으로 예측돼요.</h4>	
                   
                   <p>
-                     <li>첫번째 섭취 추천 영양소는 <strong><%= pre1 %></strong> 입니다.</li>
+                     <li>첫번째 섭취 추천 영양소는 <strong style="font-size: x-large; color: teal; "><%= pre1 %></strong> 입니다.</li>
                   </p>
                   <hr />
                   <br>
-                  <h4>두번째. 이런 영양소가 부족할 것으로 예측돼요</h4>	
+                  <h4>두번째, 이런 영양소가 부족할 것으로 예측돼요.</h4>	
                   <p>
-                     <li>두번째 섭취 추천 영양소는 <strong><%= pre2 %></strong>	 입니다.</li>
+                     <li>두번째 섭취 추천 영양소는 <strong style="font-size: x-large; color: teal; "><%= pre2 %></strong>	 입니다.</li>
                   </p>
                   
                   <form method="post" action="resultCon">
@@ -197,7 +197,7 @@ bottom : 150px;
                                        <li style="display:inline-block;display: none;"><input type="checkbox" id="ear_preg" name="pre2" value=<%= pre2 %> checked="checked" >
                                        <label for="ear_preg"><%= pre2 %></label></li>
                                        <li style="display:inline-block; margin-left: 350px; width: 40px"><input type="submit" value="자세히 보기" class="primary" /></li>
-                                       
+                                        
 													</form>
 												</ul>
 												

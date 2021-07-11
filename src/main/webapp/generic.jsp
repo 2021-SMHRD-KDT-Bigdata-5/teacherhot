@@ -34,43 +34,61 @@ if(member != null){
 	
 
 	<%if(member == null){ %>
-    <div style="position: relative; left: 500px; top: 50px;">
+    <div style="position: relative; left: 425px; top: 50px;">
     <a style="  " href="generic.jsp">회사소개</a>
     </div>
-    <div style="position: relative; left: 550px; top: 50px;">
+    <div style="position: relative; left: 475px; top: 50px;">
     <a style="  " href="q&n.jsp">고객센터</a>
     </div>
-    <div style="position: relative; left: 600px; top: 50px;">
+    <div style="position: relative; left: 525px; top: 50px;">
     <a style="  " href="login.jsp">로그인</a>
     </div>
-    <div style="position: relative; left: 650px; top: 50px;">
-    <a style="  " href="research1.jsp">테스트</a>
+     <div style="position: relative; left: 575px; top: 50px;">
+    <a style="  " href="join.jsp">회원가입</a>
     </div>
-    <%}else{ %>
-    <!-- 로그인됨  -->
-    <div style="position: relative; left: 500px; top: 50px;">
+    
+        <%}else if(member.getId().equals("admin")){ %>
+    <!-- 어드민 -->
+    <div style="position: relative; left: 400px; top: 40px;">
     <a style="  " href="generic.jsp">회사소개</a>
     </div>
-    <div style="position: relative; left: 550px; top: 50px;">
+    <div style="position: relative; left: 450px; top: 40px;">
     <a style="  " href="q&n.jsp">고객센터</a>
     </div>
-    <div style="position: relative; left: 600px; top: 50px;">
+    <div style="position: relative; left: 500px; top: 40px;">
     <a style="  " href="logout.jsp">로그아웃</a>
     </div>
-    <div style="position: relative; left: 650px; top: 50px;">
+    <div style="position: relative; left: 550px; top: 40px;">
+    <a style="  " href="mypageadmin.jsp">관리페이지</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 40px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
+    
+    <%}else{ %>
+    <!-- 로그인됨  -->
+    <div style="position: relative; left: 400px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 450px; top: 50px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style="  " href="logout.jsp">로그아웃</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 50px;">
     <a style="  " href="mypage.jsp">마이페이지</a>
     </div>
-    <div style="position: relative; left: 700px; top: 50px;">
+    <div style="position: relative; left: 600px; top: 50px;">
     <a style="  " href="research1.jsp">테스트</a>
     </div>
     <%} %>
-    
     </div>
     
 	<!-- Page Wrapper -->
 	<!--genericBanner -->
-	<div id="genericbanner">
-		<div class="innerGeneric">
+	<div id="banner">
+		<div class="inner">
 			<div class="titleGeneric" style="border-width:medium;">무료로 부족한 영양소를 채워보세요</div>
 			<div class="content">여러 문항의 설문을 통해 몸의 부족한 영양소를 추천해드립니다.</div>
 		</div>

@@ -107,7 +107,7 @@ bottom : 150px;
 							<div class="inner" style="background-color: beige">
 
 								<section>
-									<h4>두번째 페이지에요</h4>
+									<h4>당신의 건강에 플러스가 더해지는 중...>_<　 </h4>
 								
 									<hr/>
 									
